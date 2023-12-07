@@ -1,17 +1,19 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "codedor/laravel-online-scope",
+    "description": "Package that adds an online scope",
     "keywords": [
-        ":vendor_name",
+        "codedor",
         "laravel",
-        ":package_slug"
+        "laravel-online-scope"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/codedor/laravel-online-scope",
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "filament/filament": "^2.17",
         "illuminate/contracts": "^10.0",
-        "spatie/laravel-package-tools": "^1.12"
+        "spatie/laravel-package-tools": "^1.12",
+        "spatie/laravel-translatable": "^6.5"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -26,20 +28,17 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Codedor\\OnlineScope\\": "src",
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Codedor\\OnlineScope\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "VendorName\\Skeleton\\Providers\\SkeletonServiceProvider"
-            ]
+            "providers": []
         }
     },
     "config": {
