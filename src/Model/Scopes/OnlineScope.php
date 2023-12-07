@@ -16,7 +16,7 @@ class OnlineScope implements Scope
             return;
         }
 
-        if (in_array(HasTranslations::class,  class_uses_recursive($model))) {
+        if (in_array(HasTranslations::class, class_uses_recursive($model))) {
             $locale = app()->getLocale();
             $builder->where("online->{$locale}", true);
         } else {
