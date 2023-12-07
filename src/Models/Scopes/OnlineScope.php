@@ -1,6 +1,6 @@
 <?php
 
-namespace Codedor\OnlineScope\Model\Scopes;
+namespace Codedor\OnlineScope\Models\Scopes;
 
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Builder;
