@@ -8,6 +8,6 @@ trait HasOnlineScope
 {
     public static function bootHasOnlineScope()
     {
-        static::addGlobalScope(new OnlineScope());
+        static::addGlobalScope(new OnlineScope);
     }
 }
