@@ -16,7 +16,5 @@ class TestCase extends Orchestra
         return [];
     }
 
-    public function getEnvironmentSetUp($app)
-    {
-    }
+    public function getEnvironmentSetUp($app) {}
 }
